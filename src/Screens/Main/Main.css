@@ -1,0 +1,54 @@
+/* Стиль заголовка */
+.header {
+    background-color: #f44336;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+/* Очистить поплавки после заголовка */
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Стиль ввода */
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+/* Стиль кнопки "Добавить" */
+.addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+}
+.delete-task {
+    cursor: pointer!important;
+    float: right;
+    margin-right:15px;
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+    padding-left: 5px;
+    padding: 13px;
+    background: #e5cbcb;
+}

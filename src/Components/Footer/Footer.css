@@ -1,0 +1,44 @@
+.bottom-menu__container {
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    box-shadow: 0px 0px 36px rgba(154, 154, 154, 0.25);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.bottom-menu__link {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bottom-menu__link:first-child {
+    border-right: 1px solid #CCCCCC;
+}
+
+.bottom-menu__link:last-child {
+    justify-content: flex-end;
+}
+
+.icon-home,
+.icon-account {
+    width: 35px;
+    height: 35px;
+}
+
+.bottom-menu__title {
+    color: #3A3A3A;
+    font-size: 14px;
+    margin: 0 10px 0 0;
+    font-weight: 400;
+}
+
+.bottom-menu__title:last-child {
+    margin: 0 0 0 10px;
+}

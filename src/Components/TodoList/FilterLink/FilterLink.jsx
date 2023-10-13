@@ -6,7 +6,7 @@ import { setFilter } from "../../../Redux/todosService/todosSlice";
 
 import "./FilterLink.css"
 
-function FilterLink({children, filter, className}) {
+function FilterLink({children, filter }) {
     const dispatch = useDispatch();
 
     const [nameFilter, setNameFilter] = React.useState(filter);
